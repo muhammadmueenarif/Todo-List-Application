@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOdo LIst Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+      <!-- user input and click on add button. task will be added. if click on task, it will be 
+        marked as done, if click again, then it will be marked as undone. if click on cross icon, 
+        the tasks will be deleted. if refresh page, then the added tasks will be showing because the 
+        project supports local storage -->
+
+        <div class="container">
+            <div class="todo-app">
+                <h2>To-Do List<img src="images/notes.png"></h2> 
+                <div class="row">
+                   <input type="text" id="input-box" placeholder="Enter Your Text Here:"> 
+                   <button onclick="addTask()">ADD</button>
+                </div>
+                <ul id="list-container">
+                    <!-- <li class="checked">Task 0</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+    
+</body>
+</html>
